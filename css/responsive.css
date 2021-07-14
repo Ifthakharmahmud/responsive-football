@@ -1,0 +1,81 @@
+/* Tablet Responsive Design  */
+
+@media only screen and (max-width:992px){
+    header{
+        padding: 20px;
+    }
+    .main-menu{
+        display:none;
+    }
+
+    .half-width{
+        width:100%;
+        text-align:center;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        margin-top:10px;
+    }
+
+    .half-width h1 {
+        font-size:30px;
+        text-align:center;
+    }
+    a.common-btn{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .half-width img{
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    .container{
+        margin: 30px 100px;
+    }
+    section.players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .matches{
+        flex-direction: column;
+        
+    }
+    .recipient{
+        justify-content:space-between;
+    }
+    .match{
+        margin-bottom: 40px;
+    }
+    .footer-content img {
+        width: 100%;
+        
+    }
+}
+
+
+/* Mobile Responsive Design  */
+
+@media only screen and (max-width:688px){
+    .container {
+        margin: 30px;
+    }
+    section.players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player {
+        width: 100%;
+    }
+
+    .recipient {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .playing-time{
+        margin-left: 0;
+    }
+}

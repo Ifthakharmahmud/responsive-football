@@ -74,6 +74,9 @@ header{
     display:flex;
     align-items: center;
 }
+.hero-content:hover .half-width img{
+    transform: scale(1.1);
+}
 .half-width{
     width: 50%;
 }
@@ -82,7 +85,8 @@ header{
     color: #fff;
 }
 .half-width img{
-    width:100%
+    width:100%;
+    transition:0.5s;
 }
 
 /* Players area css  */
@@ -93,7 +97,7 @@ section.players {
     grid-row-gap: 27px;
 }
 .player{
-    width:330px;
+    width:315px;
     padding: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);;
 }
@@ -103,5 +107,127 @@ section.players {
 }
 
 .player-info h2{
-    
+    font-size: 28px;
+    margin: 15px 0 10px 0;
+}
+.player-info p{
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height:1.6
+}
+
+
+/* Matches Styles    */
+section.matches-dashboard {
+    margin: 120px 0;
+    border: 15px solid #2D25A0;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.matches {
+    display: flex;
+    justify-content: space-around;
+}
+h2.dashboard-title {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffff;
+    padding: 20px;
+    font-size: 26px;
+}
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+}
+.match h3{
+    font-size:25px;
+    margin: 0;
+}
+.match p{
+    font-size:13px;
+    margin: 0;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.team h4 {
+    margin-left: 15px;
+}
+
+.result h3{
+    color: #2D25A0;
+}
+
+.recipient {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.recipient-logo div {
+    display: flex;
+    align-items: center;
+}
+
+.recipient-logo div h4 {
+    margin-left: 15px;
+}
+
+
+.playing-time {
+    margin-left: 100px;
+    color: #2D25A0;
+}
+
+/* Footer Area CSS Start  */
+
+footer{
+    margin-top: 120px;
+
+}
+
+.footer-content img {
+    width: 480px;
+    /
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-content ul li {
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.footer-content ul li a {
+    font-size: 16px;
+    color: #969BAB;
+    width: 27px;
+    height: 27px;
+    background: #ddd;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+.footer-content p {
+    margin-top: 20px;
 }
