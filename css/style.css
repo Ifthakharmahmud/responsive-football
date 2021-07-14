@@ -21,8 +21,9 @@ a.common-btn i {
 }
 
 .container {
-    padding: 70px 200px;
+    /* padding: 70px 200px; */
     background:#fff;
+    margin: 70px 12%;
 }
 
 /* Header CSS Styles  */
@@ -99,4 +100,8 @@ section.players {
 
 .player img{
     width: 100%;
+}
+
+.player-info h2{
+    
 }
