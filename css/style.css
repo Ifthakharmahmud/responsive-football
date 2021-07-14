@@ -1,0 +1,102 @@
+/* General CSS */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+a.common-btn {
+    background: #E02C6D;
+    text-decoration: none;
+    color: #fff;
+    width: 168px;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+a.common-btn i {
+    margin-left: 8px;
+}
+
+.container {
+    padding: 70px 200px;
+    background:#fff;
+}
+
+/* Header CSS Styles  */
+
+header{
+    background: #2D25A0;
+    padding: 50px 150px 100px 150px;
+
+}
+
+.main-menu nav ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center
+}
+.main-menu nav ul li{
+    display:inline-block;
+    margin-right: 35px;
+}
+.main-menu nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+.user-logout{
+    background: #E02C6D;
+    padding: 20px 40px;
+    border-radius: 2px;
+    
+}
+
+.user-logout li{
+    display: block !important;
+    margin-right: 0px !important;
+}
+
+.user-logout li a{
+    text-align: center;
+    display: block;
+}
+
+.hero-content{
+    margin-top: 70px;
+    display:flex;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+}
+.half-width h1{
+    font-size:64px;
+    color: #fff;
+}
+.half-width img{
+    width:100%
+}
+
+/* Players area css  */
+section.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width:330px;
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);;
+}
+
+.player img{
+    width: 100%;
+}
